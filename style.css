@@ -1,0 +1,40 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav {
+    background: #333;
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    background: lightblue;
+    padding: 20px;
+}
+
+.search {
+    margin: 20px;
+}
+
+img {
+    width: 200px;
+    margin: 10px;
+}
