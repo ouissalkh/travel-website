@@ -32,3 +32,7 @@ function search() {
         results.innerHTML = "<p>Aucun résultat trouvé</p>";
     }
 }
+function clearResults() {
+    document.getElementById("results").innerHTML = "";
+    document.getElementById("searchInput").value = "";
+}
